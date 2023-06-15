@@ -1,0 +1,306 @@
+.main{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/* Navegador*/
+.Nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-right: 2px;
+    height: 8vh;
+    background-color: #fed60d;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.Nav >div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.h1ContactoNav{
+    font-size: 1.2rem;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    padding-left: 8em;
+}
+.linkNav{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+  font-size: 1.1rem;
+}
+.li3{
+    padding-right: 0.5rem;
+}
+.li4{
+    padding-left: 1em;
+}
+.numeros{
+    font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+
+}
+/*Img Presupuesto*/
+.ImgPresupuesto{
+    height: 70vh;
+    background-image: url("https://static.wixstatic.com/media/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg/v1/fill/w_2880,h_1080,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg");
+    background-size: 100% 100%;
+    margin-top: 7.8vh;
+}
+.p1{
+    
+    color: white;
+    font-size: 3rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p2{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+}
+.numeroPresupuesto{
+    color: #feda26;
+    font-size: 3rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.llamanos{
+    padding-top: 20vh;
+    padding-left: 20vh;
+}
+.contBtn{
+    padding-top: 5vh;
+}
+.btnPresupuesto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: #ffdf35;
+    background-color: rgb(56, 107, 177);
+    border: none;
+    padding: 0.5em 0.5rem 0.5em 0.5em;
+    margin-left: 0.3em;
+    letter-spacing: -1px;
+}
+.btnPresupuesto:hover{
+    background-color: #feda26;
+    color:#0a6e9b;
+}
+.ion{
+    display: grid;
+    padding-left: 40%;
+    padding-top: 8%;
+}
+/*Servicios*/
+.Servicios{
+    height: 80vh;
+    background-color: #0a6e9b;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.h1Servicios{
+    font-size: 2.4rem;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-weight:lighter;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+.circulos{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 50%;
+    border: solid #fed60d 2px;
+    height: 10rem;
+    width: 10rem;   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.circulos:hover{
+    background-color: #fed60d;
+    color:#0a6e9b;
+    font-size: 1.8rem; 
+}
+.circulo{
+    padding-left: 8%;
+    padding-right: 8%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    margin-left: 5%;
+}
+.texto{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.textos{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.btnText{
+    color: #fed60d;
+    border:none;
+    background-color: #0a6e9b;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Nuestra*/
+.Nuestra{
+    height: 55vh;
+    background-image: url("https://ferrebaratilloimage.s3.us-east-2.amazonaws.com/120421.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.Nuestra1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding:5% 25% 5% 25%;
+    font-size: 3rem;
+    color: #fed60d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Nuestra2{
+    display: grid;
+    text-align: center;
+    padding:1% 35% 5% 35%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/*Clientes*/
+.Clientes{
+    height: 75vh;
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.Cliente1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding:5% 25% 5% 25%;
+    font-size: 2.8rem;
+    color: #1f80ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Cliente2{
+    display: grid;
+    text-align: center;
+    padding:1% 25% 5% 25%;
+    color: black;
+    font-size: 2;
+    font-family: 'Courier New', Courier, monospace;
+    grid-template-rows: repeat(2,1fr);
+}
+.Parrafos1{
+    height: 60%;
+    padding-left: 50%;
+}
+.Parrafos2{
+    height: 60%;
+    padding-right: 50%;
+}
+.h4{
+    color: #1f80ad;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: end;
+    font-size:medium;
+}
+/*Contacto*/
+.Contacto{
+    height: 110vh;
+    background-color: rgb(49, 92, 151);
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+.contacto1{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    height: 30%;
+}
+.contacto247{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #5bbdea;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8%;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   padding: 5% 20% 10% 20%;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+}
+.contacto4{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 0.5rem;
+    font-size: 1.1rem;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.secondDiv{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.contacto2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.inp{
+    padding: 0.7rem 25rem 0.7rem 0.5rem;
+}
+.inp:hover{
+    background-color: #57a5c9;
+    border: #57a5c9;
+}
+.h1Contacto{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 20%;
+}
+.textarea{
+    padding-left: 0.5rem;
+}
+.textarea:hover{
+    background-color: #57a5c9;
+    border: #57a5c9;
+}
+.btnContacto{
+    background-color: #fed60d;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #1f80ad;
+    border: #fed60d;
+}

@@ -31,24 +31,28 @@ const Nav = () => {
         <div >
           <ul className={style.linkNav}>
               <li>
-                <Link 
+                <a
                   className={style.Link}
-                  href="/">INICIO</Link>
+                  href="#">INICIO
+                </a>
               </li>
               <li>
-                <Link 
+                <a 
                   className={style.Link}
-                  href="/">SERVICIOS</Link>
+                  href="#servicio">SERVICIOS
+                </a>
               </li>
               <li className={style.li3}>
-                <Link 
+                <a 
                   className={style.Link}
-                  href="/">QUIENES SOMOS</Link>
+                  href="#quienes">QUIENES SOMOS
+                </a>
               </li>
               <li className={style.li4}>
-                <Link 
+                <a 
                   className={style.Link}
-                  href="/">CONTACTO</Link>
+                  href="#contacto">CONTACTO
+                </a>
               </li>
           </ul>
         </div>
